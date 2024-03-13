@@ -1,0 +1,24 @@
+
+1. what is CDN?
+=> A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. what is crossorigin?
+=> The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+	Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+	A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. will the order of file work?
+=> order of the file is always in sequence.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Library and framework?
+=> 
+A library provides a set of helper functions/objects/modules which your application code calls for specific functionality. Libraries typically focus on a narrow scope (e.g., strings, IO, sockets), so their API’s also tend to be smaller and require fewer dependencies. It is just a collection of class definitions. Why we need them? The reason being very simple i.e. code reuse, use the code which has already been written by other developers. Example, some library has a method named findLastIndex(char) to find the last index of a particular character in a string. We can straightaway call findLastIndex(charToFind) function of the library and pass the characters whose position we need to find as a parameter in the function call. 
+
+Framework, on the other hand has defined open or unimplemented functions or objects which the user writes to create a custom application. (C++/Java users will understand this as it is much like implementing an abstract function). Because a framework is itself an application, it has a wider scope and includes almost everything necessary to make a user application as per his own needs.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. git and github
